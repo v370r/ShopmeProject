@@ -51,8 +51,7 @@ ml
 *.iml
 .idea
 .project
-.classpath
-.settings/
+*.settings/
 reports/
 build/
 bin/
@@ -61,3 +60,7 @@ node_modules/
 .DS_Store
 *.log
 imports.less
+*.jar
+*.lst
+**pom.properties
+*.prefs
