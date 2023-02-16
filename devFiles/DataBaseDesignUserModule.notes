@@ -1,0 +1,20 @@
+- users:                                              
+    id             int (11)             
+    email          varchar(128)               
+    enabled        tinyint(4)                      
+    first_name     varchar(45)
+    last_name      varchar(45)
+    password       varchar(64)
+    photos         varchar(64)
+
+- userRoles:
+    user_id       int(11)
+    role_id       int(11)
+
+- roles:
+    id            int(11)
+    name          varchar(40)
+    description   varchar(150)
+
+check  devFiles\userModule.png  
+

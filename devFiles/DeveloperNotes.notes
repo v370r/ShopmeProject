@@ -1,0 +1,13 @@
+usermodule: 
+   DataBase design
+             user   <---> users_roles <--> roles  (All many to many)
+
+    Refer DataBaseDesignUserModule.notes for full info on this data base
+
+    - photos : photos are stored as image name
+                Actual image file will be stored in S3 bucket (prod) or file system (dev env)
+
+
+
+
+    

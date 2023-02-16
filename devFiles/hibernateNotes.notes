@@ -1,0 +1,11 @@
+/*
+Lenght is hibernate version of size
+a bean validation annotation
+
+@Size makes the bean independent of JPA and its vendors, such as Hibernate
+@Length is the Hibernate-specific version of @Size.
+
+@Column to indicate specific characteristics of the physical database column. We'll use the length attribute of the @Column annotation to specify the string-valued column length:
+/
+@Column(length = 5) 
+    @Size(min = 3, max = 5) 
